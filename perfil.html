@@ -10,16 +10,32 @@
 <body>
   <nav>
     <a href="index.html"><img  src="images/logo_sif.png" alt="Logo da empresa junior" id="logo"></a>
-    <h1 id="sif">SIFSoft Jr</h1>
-    <a id="logout" href="">Sair</a>
+    <ul>
+      <li><a href="#sobre" target="_self" rel="noopener">Sobre</a></li>
+      <li><a href="#servicos" target="_self" rel="noopener">Serviços</a></li>
+      <li id="selecao"><a href="index.html" target="_self" rel="noopener">Home</a></li>
+      <li><a href="#equipe">Equipe</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div id="perfilicon">
+      <a id="logout" href="">
+        <img src="images/perfil.png" alt="Perfil">
+        <p>Sair</p>
+      </a>
+    </div>
   </nav>
+
   <main>
-    <div class="box">
+    <div class="box" id="perfil">
       <h1>Perfil</h1>
       <p>Nome: <span id="nome"></span></p>
       <p>Email: <span id="email"></span></p>
     </div>
   </main>
+  <footer>  
+    <p>&copy; 2024 SIFSoft Jr. Todos os direitos reservados.</p>
+  </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>
