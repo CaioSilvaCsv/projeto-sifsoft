@@ -1,8 +1,3 @@
-:root{
-  --color-text: (#ffffff);
-  --color-text-secundary: (#243761);
-  --color-yellow:(#ffc300);
-}
 
 *{
   margin: 0;
@@ -153,11 +148,17 @@ main{
   align-items: center;
   justify-content: center;
   gap: 16px;
+  text-align: center;
 }
 .container img{
   border: 4px solid rgb(182, 220, 255);
   width: 100%;
   border-radius: 8px;
+}
+
+.container a{
+  color: #3b5181;
+  font-weight: bold;
 }
 
 footer{
